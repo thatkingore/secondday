@@ -23,6 +23,16 @@ using namespace std;
 int main()
 {
     cout << "Hi Hi!" << endl;
+    cout << "         ^" << endl;
+    cout << "        /|" << endl;
+    cout << "       / |" << endl;
+    cout << "      /  |" << endl;
+    cout << "     /   |" << endl;
+    cout << "    /    |" << endl;
+    cout << "   /     |" << endl;
+    cout << "  /      |" << endl;
+    cout << " /_______|" << endl;
     
     return 0;
 }
+
