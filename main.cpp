@@ -23,6 +23,7 @@ using namespace std;
 int main()
 {
     cout << "Hi Hi!" << endl;
+    cout << "\n" << endl;
     cout << "         ^" << endl;
     cout << "        /|" << endl;
     cout << "       / |" << endl;
@@ -32,7 +33,11 @@ int main()
     cout << "   /     |" << endl;
     cout << "  /      |" << endl;
     cout << " /_______|" << endl;
-    
+    cout << "\n\n" << endl;
+    cout << "There was once a man named George" << endl;
+    cout << "He was 70 years old" << endl;
+    cout << "He liked the name George" << endl;
+    cout << "But did not like being 70" << endl;
     return 0;
 }
 
