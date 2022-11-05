@@ -34,10 +34,15 @@ int main()
     cout << "  /      |" << endl;
     cout << " /_______|" << endl;
     cout << "\n\n" << endl;
-    cout << "There was once a man named George" << endl;
-    cout << "He was 70 years old" << endl;
-    cout << "He liked the name George" << endl;
-    cout << "But did not like being 70" << endl;
+   
+    string characterName = "John";
+    int characterAge;
+    characterAge = 35;
+    cout << "There was once a man named " << characterName << endl;
+    cout << "He was " << characterAge << " years old" << endl;
+    cout << "He liked the name " << characterName << endl;
+    cout << "But did not like being " << characterAge << endl;
+    
     return 0;
 }
 
