@@ -50,7 +50,7 @@ int main()
     double unlimited_decimal_points = 5.3232342342;
     float limited = 3.4;
     bool is_male = false;
-    cout << "For my final exam, I got an " << grade << ". I am " << age << " years old." << endl;
+    cout << phrase << " is the topic. For my final exam, I got an " << grade << ". I am " << age << " years old." << endl;
     cout << unlimited_decimal_points << " is a random number I came up with." << endl;
     cout << "\n\n" << endl;
     
