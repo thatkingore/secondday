@@ -42,6 +42,13 @@ int main()
     cout << "He was " << characterAge << " years old" << endl;
     cout << "He liked the name " << characterName << endl;
     cout << "But did not like being " << characterAge << endl;
+    cout << "\n\n" << endl;
+    
+    char grade = 'A';
+    string phase = "Data Types";
+    int age = 7;
+    double unlimited_decimal_points = 5.3232342342;
+    float limited = 3.4;
     
     return 0;
 }
