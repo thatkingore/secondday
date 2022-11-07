@@ -42,7 +42,7 @@ int main()
     cout << "He was " << characterAge << " years old" << endl;
     cout << "He liked the name " << characterName << endl;
     cout << "But did not like being " << characterAge << endl;
-    cout << "\n\n" << endl;
+    cout << "\n\n";
     
     char grade = 'A';
     string phase = "Data Types";
@@ -52,7 +52,13 @@ int main()
     bool is_male = false;
     cout << phrase << " is the topic. For my final exam, I got an " << grade << ". I am " << age << " years old." << endl;
     cout << unlimited_decimal_points << " is a random number I came up with." << endl;
-    cout << "\n\n" << endl;
+    cout << "\n\n";
+    
+    cout << phrase.length() << endl;
+    cout << phrase.find("Data", 0) << endl;
+    string phrasesub;
+    phrasesub = phrase.substr(5, 5);
+    cout << phrasesub << endl;
     
     return 0;
 }
