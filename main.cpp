@@ -59,6 +59,19 @@ int main()
     string phrasesub;
     phrasesub = phrase.substr(5, 5);
     cout << phrasesub << endl;
+    cout << "\n\n";
+    
+    cout << 4 << endl;
+    cout << 4 + 5 << endl;
+    cout << 4 - 5 << endl;
+    cout << 4 * 5 << endl;
+    cout << 4 / 5 << endl;
+    cout << 4 % 5 << endl;
+    
+    int wnum = 4;
+    wnum++;
+    wnum += 3;
+    cout << wnum << endl;
     
     return 0;
 }
