@@ -17,6 +17,7 @@
 // End of Template
 
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -72,6 +73,12 @@ int main()
     wnum++;
     wnum += 3;
     cout << wnum << endl;
+    
+    cout << pow(4,5) << endl;
+    cout << sqrt(22) << endl;
+    cout << round(sqrt(22)) << endl;
+    cout << ceil(sqrt(22)) << endl;
+    cout << floor(sqrt(22)) << endl;
     
     return 0;
 }
