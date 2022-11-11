@@ -1,7 +1,4 @@
 //
-//  main.cpp
-//  secondday
-//
 //  Created by Ore Daodu on 03/11/2022.
 //
 
