@@ -66,6 +66,13 @@ int main()
     cout << ceil(sqrt(22)) << endl;
     cout << floor(sqrt(22)) << endl;
     
+    double num1, num2;
+    cout <<"Enter a number: ";
+    cin >> num1;
+    cout <<"Another number: ";
+    cin >> num2;
+    cout << num1 + num2 << endl;
+    
     return 0;
 }
 
