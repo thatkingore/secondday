@@ -67,9 +67,9 @@ int main()
     cout << floor(sqrt(22)) << endl;
     
     double num1, num2;
-    cout <<"Enter a number: ";
+    cout << "Enter a number: ";
     cin >> num1;
-    cout <<"Another number: ";
+    cout << "Another number: ";
     cin >> num2;
     cout << num1 + num2 << endl;
     
