@@ -48,6 +48,7 @@ int main()
     cout << phrasesub << endl;
     cout << "\n\n";
     
+    // Numbers
     cout << 4 << endl;
     cout << 4 + 5 << endl;
     cout << 4 - 5 << endl;
@@ -66,6 +67,7 @@ int main()
     cout << ceil(sqrt(22)) << endl;
     cout << floor(sqrt(22)) << endl;
     
+    // Basic Calculator
     double num1, num2;
     cout << "Enter a number: ";
     cin >> num1;
