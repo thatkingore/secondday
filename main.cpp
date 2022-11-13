@@ -73,6 +73,20 @@ int main()
     cin >> num2;
     cout << num1 + num2 << endl;
     
+    // Mad Lib Game
+    string colour, pluralnoun, celeb;
+    
+    cout << "What is your favourite colour: ";
+    getline (cin, colour);
+    cout << "And the plural form of a word: ";
+    getline (cin, pluralnoun);
+    cout << "Who is your favourite person: ";
+    getline (cin, celeb);
+    
+    cout << "Roses are " << colour << endl;
+    cout << pluralnoun << " are blue" << endl;
+    cout << "I love " << celeb << endl;
+    
     return 0;
 }
 
