@@ -22,6 +22,7 @@ int main()
     cout << " /_______|" << endl;
     cout << "\n\n" << endl;
    
+    // Variables
     string characterName = "John";
     int characterAge;
     characterAge = 35;
@@ -31,6 +32,7 @@ int main()
     cout << "But did not like being " << characterAge << endl;
     cout << "\n\n";
     
+    // Data Types
     char grade = 'A';
     string phase = "Data Types";
     int age = 7;
@@ -66,7 +68,7 @@ int main()
     cout << round(sqrt(22)) << endl;
     cout << ceil(sqrt(22)) << endl;
     cout << floor(sqrt(22)) << endl;
-    cout << "\n\n";
+    cout << "\n";
     
     // Basic Calculator
     double num1, num2;
@@ -76,6 +78,7 @@ int main()
     cin >> num2;
     cout << num1 + num2 << endl;
     cout << "\n\n";
+    
     
     // Mad Lib Game
     
