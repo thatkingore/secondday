@@ -85,11 +85,19 @@ int main()
     string colour, pluralnoun, celeb;
     
     cout << "What is your favourite colour: ";
-    getline(cin, colour);
+    cin >> colour;
     cout << "And the plural form of a word: ";
-    getline(cin, pluralnoun);
+    cin >> pluralnoun;
     cout << "Who is your favourite person: ";
-    getline(cin, celeb);
+    cin >> celeb;
+    
+    
+//  cout << "What is your favourite colour: ";
+//  getline(cin, colour);
+//  cout << "And the plural form of a word: ";
+//  getline(cin, pluralnoun);
+//  cout << "Who is your favourite person: ";
+//  getline(cin, celeb);
     
     cout << "Roses are " << colour << endl;
     cout << pluralnoun << " are blue" << endl;
