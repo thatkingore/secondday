@@ -66,6 +66,7 @@ int main()
     cout << round(sqrt(22)) << endl;
     cout << ceil(sqrt(22)) << endl;
     cout << floor(sqrt(22)) << endl;
+    cout << "\n\n";
     
     // Basic Calculator
     double num1, num2;
@@ -74,16 +75,18 @@ int main()
     cout << "Another number: ";
     cin >> num2;
     cout << num1 + num2 << endl;
+    cout << "\n\n";
     
     // Mad Lib Game
+    
     string colour, pluralnoun, celeb;
     
     cout << "What is your favourite colour: ";
-    getline (cin, colour);
+    getline(cin, colour);
     cout << "And the plural form of a word: ";
-    getline (cin, pluralnoun);
+    getline(cin, pluralnoun);
     cout << "Who is your favourite person: ";
-    getline (cin, celeb);
+    getline(cin, celeb);
     
     cout << "Roses are " << colour << endl;
     cout << pluralnoun << " are blue" << endl;
