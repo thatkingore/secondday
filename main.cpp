@@ -102,7 +102,16 @@ int main()
     cout << "Roses are " << colour << endl;
     cout << pluralnoun << " are blue" << endl;
     cout << "I love " << celeb << endl;
+    cout << "n\";
     
+    // Using Arrays
+    int randos[20] = {4, 8, 15, 16, 23, 42};
+    cout << randos[2] << endl;
+    randos[19] = 7;
+    cout << randos[19] << endl;
+    cout << "\n";
+    
+    return 0;
     return 0;
 }
 
