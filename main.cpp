@@ -7,17 +7,15 @@
 
 using namespace std;
 
-void sayHi() {
-    cout << "Hi User";
+void sayHi(string name, int age) {
+    cout << "Hi " << name << ", you are " << age << " years old.";
     
 }
 
 int main()
 {
-    cout << "Top" << endl;
-    sayHi();
+    sayHi("ore", 23);
     cout << endl;
-    cout << "Bottom" << endl;
     
     cout << "Hi Hi!" << endl;
     cout << "\n" << endl;
