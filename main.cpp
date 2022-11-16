@@ -7,6 +7,11 @@
 
 using namespace std;
 
+void sayHi() {
+    cout << "Hi User";
+    
+}
+
 int main()
 {
     cout << "Hi Hi!" << endl;
