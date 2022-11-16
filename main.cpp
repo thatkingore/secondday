@@ -14,6 +14,11 @@ void sayHi() {
 
 int main()
 {
+    cout << "Top" << endl;
+    sayHi();
+    cout << endl;
+    cout << "Bottom" << endl;
+    
     cout << "Hi Hi!" << endl;
     cout << "\n" << endl;
     cout << "         ^" << endl;
