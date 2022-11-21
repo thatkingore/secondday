@@ -42,6 +42,33 @@ int calculator()
     cout << num1 + num2 << endl;
     cout << "\n\n";
     
+    // Better Calculator
+    char op;
+    
+    cout << "Enter a number: " << endl;
+    cin >> num1;
+    cout << "Enter an operator: " << endl;
+    cin >> op;
+    cout << "And another number: " << endl;
+    cin >> num2;
+    
+    int result;
+    
+    if(op == '+') {
+        result = num1 + num2;
+    } else if(op == '-') {
+        result = num1 - num2;
+    } else if(op == '/') {
+        result = num1 / num2;
+    } else if(op == '*') {
+        result = num1 * num2;
+    } else {
+        cout << "Invalid operator" << endl;
+    }
+    
+    cout << result;
+    cout << "\n" << endl;
+    
     return 0;
     
 }
