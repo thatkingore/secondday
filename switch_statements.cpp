@@ -10,7 +10,6 @@
 
 using namespace std;
 
-
 string getDayOfWeek (int dayNum) {
     string dayName;
     
