@@ -36,6 +36,16 @@ int mad_lib_game()
     cout << "I love " << celeb << endl;
     cout << "\n";
     
+        int secretNum = 7;
+    int guess;
+    
+    while(secretNum != guess) {
+        cout << "Enter guess: ";
+        cin >> guess;
+    }
+    
+    cout << "You Win!" << endl;
+    
     return 0;
     
 }
