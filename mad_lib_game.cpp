@@ -36,6 +36,8 @@ int mad_lib_game()
     cout << "I love " << celeb << endl;
     cout << "\n";
     
+ // Guessing Game
+    
     int secretNum = 7;
     int guess;
     int guessCount = 0;
