@@ -13,9 +13,14 @@ using namespace std;
 int pointers()
 {
     int age = 23;
+// Pointer Variable
+    int *pAge = &age;
+    double *pgpa = &gpa;
     double gpa = 80;
     string name = "Joy";
+    string *pname = &name;
     
+    cout << pAge << endl;
     cout << "Age: " << &age << endl;
     cout << "GPA: " << &gpa << endl;
     cout << "Name: " << &name << endl;
