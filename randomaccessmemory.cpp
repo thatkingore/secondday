@@ -16,6 +16,7 @@ int pointers()
     double gpa = 80;
     string name = "Joy";
     
+    cout << &age;
     cout << "\n\n" << endl;
     
     return 0;
