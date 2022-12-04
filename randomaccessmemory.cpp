@@ -21,6 +21,9 @@ int pointers()
     string *pname = &name;
     
     cout << pAge << endl;
+// Dereferencing Pointer
+    cout << *pAge << endl;
+//  cout << *&gpa << endl;
     cout << "Age: " << &age << endl;
     cout << "GPA: " << &gpa << endl;
     cout << "Name: " << &name << endl;
